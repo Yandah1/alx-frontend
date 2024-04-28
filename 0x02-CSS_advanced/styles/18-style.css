@@ -409,7 +409,7 @@ body {
   line-height: var(--line-height-base);
 }
 
-a:link {
+a[href] {
   text-decoration: none; 
   color: inherit; /* Inherit color from parent */
 }
@@ -426,7 +426,7 @@ a:active {
 background-color: var(--color-light-grey);
 }
 
-section :is(h1, h2, h3, h4, h5, h6) {
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
 }
@@ -498,11 +498,12 @@ section :is(h1, h2, h3, h4, h5, h6) {
 .nav {
   margin: 0;
   padding: 0;
+  list-style: none;
   text-align: center;
 }
 
 /* Styles for .nav-item in .nav */
-nav .nav-item {
+.nav .nav-item {
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
   font-size: var(--nav-item-font-size);
@@ -512,9 +513,9 @@ nav .nav-item {
 }
 
 /* Styles for .nav-link in .nav */
-nav .nav-link {
+.nav .nav-link {
   display: block;
-  padding: calc(0.5 * var(--root-font-size)) var(--root-font-size);
+  padding: 0.5rem 1rem;
 }
 
 /* Hover state for .nav-link in .nav */
