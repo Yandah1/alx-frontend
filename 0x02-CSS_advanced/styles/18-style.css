@@ -381,13 +381,13 @@ template {
   --section-footer-align: center;
   --footer-padding: 5rem 0 1rem;
   /* nav properties*/
-  --nav-item-font-family: 'Raleway', Helvetica Neue, Helvetica, Arial, sans-serif;
-  --nav-item-font-weight: 700;
-  --nav-item-font-size: 1.6rem;
+  --nav-item-font-family: var(--font-family-title);
+  --nav-item-font-weight: var(--font-weight-bold);
+  --nav-item-font-size: var(--font-size-medium);
   --nav-item-letter-spacing: 4%;
   --nav-item-display: inline-block;
-  --nav-item-margin: 0 0 calc(3 * var(--font-size-medium)) 0;
-  --nav-item-link-hover: #d73953;
+  --nav-item-margin: 0 0  3rem 0;
+  --nav-item-link-hover: var(--color-primary)
 }
 
 /* universal box-sizing */
