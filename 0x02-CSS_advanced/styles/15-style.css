@@ -350,7 +350,7 @@ template {
 }
 /* ---------------- End Normalize ---------------- */
 
-/* Task 14 - Resetting the CSS stylesheet for browser consistency */
+/*- Resetting the CSS stylesheet for browser consistency */
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
@@ -377,8 +377,8 @@ template {
 }
 
 /* universal box-sizing */
-* {
-  box-sizing: border-box;
+*, *::before, *::after {
+  box-sizing: border-box; 
 }
 
 /* General styles */
