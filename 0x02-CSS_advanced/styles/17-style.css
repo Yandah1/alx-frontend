@@ -379,6 +379,7 @@ template {
   --section-header-padding: 0 0 3rem;
   --section-body-padding: 0 0 3rem;
   --section-footer-padding: 3rem 0 0;
+  --section-footer-align: center;
   --footer-padding: 5rem 0 1rem;
 }
 
@@ -423,16 +424,6 @@ section :is(h1, h2, h3, h4, h5, h6) {
   font-weight: var(--font-weight-bold);
 }
 
-.visually-hidden {
-  display: none;
-}
-
-.card-category,
-.section-tagline {
-  color: var(--color-primary);
-}
-
-
 /* Target section-title class */
 .section-title {
   font-family: var(--font-family-title); /* Set font family */
@@ -476,6 +467,15 @@ section :is(h1, h2, h3, h4, h5, h6) {
 .section-footer {
   padding: var(--section-footer-padding);
   text-align: var(--section-footer-align);
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.card-category,
+.section-tagline {
+  color: var(--color-primary);
 }
 
 /* Styles for .footer */
