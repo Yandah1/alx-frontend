@@ -67,7 +67,7 @@
     display: none;
   }
   
-  .card-category 
+  .card-category, 
   .section-tagline {
     color: var(--color-primary);
   }
