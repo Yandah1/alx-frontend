@@ -417,6 +417,22 @@ a:hover {
 a:active {
 background-color: var(--color-light-grey);
 }
+
+section :is(h1, h2, h3, h4, h5, h6) {
+  font-family: var(--font-family-title);
+  font-weight: var(--font-weight-bold);
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.card-category,
+.section-tagline {
+  color: var(--color-primary);
+}
+
+
 /* Target section-title class */
 .section-title {
   font-family: var(--font-family-title); /* Set font family */
@@ -465,18 +481,4 @@ background-color: var(--color-light-grey);
 /* Styles for .footer */
 .footer {
   padding: var(--footer-padding);
-}
-
-section :is(h1, h2, h3, h4, h5, h6) {
-  font-family: var(--font-family-title);
-  font-weight: var(--font-weight-bold);
-}
-
-.visually-hidden {
-  display: none;
-}
-
-.card-category,
-.section-tagline {
-  color: var(--color-primary);
 }
