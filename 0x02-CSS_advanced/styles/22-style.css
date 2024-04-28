@@ -589,18 +589,3 @@ ul.row {
   --section-title-color: var(--color-white);
   background-color: var(--color-black);
 }
-
-/* Style the .footer-address class */
-.footer-address {
-  color: var(--text-color);
-}
-
-/* Style the .footer-address class */
-.social-link {
-  display: block;
-}
-
-/* Style the .social-link class and select its svg children */
-.social-link svg {
-  fill: var(--text-color)
-}

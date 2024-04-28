@@ -1,4 +1,4 @@
-/* task 22 - Add a dark theme */
+/* task 23 - Add a dark theme */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -588,4 +588,19 @@ ul.row {
   --text-color: var(--color-white);
   --section-title-color: var(--color-white);
   background-color: var(--color-black);
+}
+
+/* Style the .footer-address class */
+.footer-address {
+  color: var(--text-color);
+}
+
+/* Style the .footer-address class */
+.social-link {
+  display: block;
+}
+
+/* Style the .social-link class and select its svg children */
+.social-link svg {
+  fill: var(--text-color)
 }
