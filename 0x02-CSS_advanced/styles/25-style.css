@@ -430,7 +430,6 @@ a:visited {
   font-style: italic;
 }
 
-
 /* Button class selector */
 .button {
   display: var(--button-display); 
@@ -614,8 +613,8 @@ ul.row {
 [data-section-theme="dark"] {
   --text-color: var(--color-white);
   --section-title-color: var(--color-white);
+  --button-color: var(--color-white);
   background-color: var(--color-black);
-  --background-color: var(--button-hover-background);
 }
 
 /* Style the .footer-address class */
