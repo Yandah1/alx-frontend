@@ -1,4 +1,4 @@
-/* task 30 -   Fix the works section */
+/* task 31 -   Add quotes decoration on testimonials */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -825,4 +825,19 @@ ul.row {
 
 .card-work:hover .card-title {
   opacity: 1;
+}
+
+/* Target the card-quote that is inside the card-testimonial */
+.card-testimonial .card-quote {
+  position: relative;
+}
+
+.card-testimonial .card-quote::before {
+  content: "\201C";
+  position: absolute;
+  top: -4.5rem;
+  left: -1rem;
+  color: #efeded;
+  font-size: 10rem;
+  z-index: -1;
 }
